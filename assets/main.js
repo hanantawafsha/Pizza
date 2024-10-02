@@ -10,7 +10,7 @@ const pizza = data.recipes;
 const result = pizza.map(function(pizzaitem){
 return `<div class="pizzaitem">
     <h2>${pizzaitem.title}</h2>
-    <img src="${pizzaitem.image_url}" alt="${pizzaitem.title}">
+    <img src=${pizzaitem.image_url} alt=${pizzaitem.title}>
 </div>`;
 
 }).join('');
